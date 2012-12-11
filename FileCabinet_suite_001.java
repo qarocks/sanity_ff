@@ -88,7 +88,7 @@ Integer cabrows,tmpcabrows,row_limits[];
 	
 	@Test
 	public void suite_001() throws Exception {
-		/*	
+			
 		user_allperms="snehamtd001@gmail.com";
 		
 		driver.get(baseUrl);
@@ -640,16 +640,16 @@ Integer cabrows,tmpcabrows,row_limits[];
 		
 		//---------------------------------------------------------------------------------
 		
-	*/
+	
 		//"email files" functionality - sent files,received files,file sync files
 		
 		//sent files
 		
-		/*subject="email files functionality 001";
+		subject="email files functionality 001";
 		emailBody=subject;
 		Functions.GenericMailSend(selenium, driver, user_allperms, user_onlylft, subject, emailBody, pwd_allusers, baseUrl, 0, 0, "null", 1, Functions.pathTo25Files, 0);
 		Thread.sleep(5000);
-		*/
+		
 		
 Functions.login(driver, user_allperms, pwd_allusers);
 driver.get(path_sent);
